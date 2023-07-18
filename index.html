@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What is Today's Weather</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1></h1>
+    <div class="container">
+        <div class="header">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter Your City " class="input-box">
+                <button class="fa-brands fa-searchengin fa-bounce fa-xl" id="searchbtn"></button>
+            </div>
+        </div>
+        <div class="weatherbody">
+            <img src="/images/clouds.png" alt="weatherimage" class="weather-img">
+
+        <div class="weather-box">
+            <p class="temperature">0<sup>°C</sup></p>
+            <p class="description">Light Rain </p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet fa-beat-fade"></i>
+                <div class="text">
+                    <span id="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+                </div>
+                <div class="Wind">
+                    <i class="fa-sharp fa-solid fa-wind fa-beat"></i>
+                    <div class="text">
+                        <span id="Wind-speed">12Km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dec9c8dcd1.js" crossorigin="anonymous"></script> 
+</body>
+</html>
